@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    background-color:#B1D9DB;
+    height: 90vh;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+}
+.container>img{
+    position: relative;
+    top:50px;
+    right:-100px; 
+    height :500px;
+    width:500px;
+}
+.signup-container{
+    background-color: white;
+    height: 96vh;
+    width:600px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius:40px;
+    padding: 15px 10px 10px 160px;
+}
+.utils{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.inner-util{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+.inner-util img{
+    height: 27px;
+}
+.inner-util span{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.or{
+    margin-top: 35px;
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+form{
+    margin-top:40px;
+}
+input{
+    display: block;
+    border: none;
+    border-bottom:1px solid black;
+    height: 40px;
+    width:400px;
+    margin-top:20px;
+    font-size: 15px;
+}
+button{
+    margin-top: 20px;
+    width : 400px;
+    height : 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    color:white;
+    background-color:#B1D9DB;
+    border: none;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.success{
+    color : #7CD2D7;
+}
+
+.error{
+    color: red;
+}
